@@ -32,8 +32,6 @@ for_upload/
 │   ├── MATLAB/                             # Diagnostic plots, boxplots, power curves, motion heatmap
 │   ├── MRIcroGL/                           # Rendered statistical activation overlays on anatomical MNI
 │   └── SPM/                                # Official SPM glass brain output sheets (PDF)
-├── first_level_data/                        # Individual subject SPM output (beta, con, spmT maps)
-├── preprocessed_data/                       # Preprocessed functional (swa*) and structural (y_*) volumes
 ├── second_level_data/                       # Group-level statistical models & thresholded maps
 │   ├── contrast_01_music_vs_scrambled/
 │   ├── contrast_02_music_vs_noise/
