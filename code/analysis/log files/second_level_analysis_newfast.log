@@ -1,0 +1,200 @@
+=========================================================================
+START DER GRUPPENANALYSE NEWFAST (SECOND-LEVEL): 18-Aug-2026 17:19:30
+Input:  /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/derivatives/spm_first_level_newfast
+Output: /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/derivatives/spm_second_level_newfast
+=========================================================================
+
+===================================================
+Starte Second-Level (NEWFAST) für Kontrast 1: contrast_01_music_vs_scrambled
+===================================================
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_second_level_analysis_newfast', '/mnt/beegfs/workspace/2026-0458-MUSLOC/data/proc_elana/code/scripts/run_second_level_analysis_newfast.m', 77)" style="font-weight:bold">run_second_level_analysis_newfast</a> (<a href="matlab: opentoline('/mnt/beegfs/workspace/2026-0458-MUSLOC/data/proc_elana/code/scripts/run_second_level_analysis_newfast.m',77,0)">line 77</a>)
+CRITICAL ERROR: Kontrastdatei fehlt:
+/hpc/workspace/2026-0458-MUSLOC/data/proc_elana/derivatives/spm_first_level_newfast/sub-01/con_0001.nii
+Abbruch.
+} 
+run_second_level_analysis_newfast
+=========================================================================
+START DER GRUPPENANALYSE NEWFAST (SECOND-LEVEL): 19-Aug-2026 22:49:53
+Input:  /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/derivatives/spm_first_level_newfast
+Output: /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/derivatives/spm_second_level_newfast
+=========================================================================
+
+===================================================
+Starte Second-Level (NEWFAST) für Kontrast 1: contrast_01_music_vs_scrambled
+===================================================
+Item factorial_design: No field(s) named
+gmsca
+glonorm
+Item con: No field(s) named
+deletecons
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:50:30 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:50:30 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          22:50:30 - 19/08/2026
+19-Aug-2026 22:50:31 - Done    'Factorial design specification'
+19-Aug-2026 22:50:31 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:50:31 - 19/08/2026
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:50:44 - 19/08/2026
+Done
+19-Aug-2026 22:50:44 - Done    'Model estimation'
+19-Aug-2026 22:50:44 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:50:44 - 19/08/2026
+========================================================================
+Contrasts folder                        : ..ntrast_01_music_vs_scrambled
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','/mnt/beegfs/workspace/2026-0458-MUSLOC/data/proc_elana/derivatives/spm_second_level_newfast/contrast_01_music_vs_scrambled','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:50:45 - 19/08/2026
+19-Aug-2026 22:50:45 - Done    'Contrast Manager'
+19-Aug-2026 22:50:45 - Done
+
+SUCCESS: Second-Level NEWFAST für contrast_01_music_vs_scrambled erfolgreich berechnet.
+
+===================================================
+Starte Second-Level (NEWFAST) für Kontrast 2: contrast_02_music_vs_noise
+===================================================
+Item factorial_design: No field(s) named
+gmsca
+glonorm
+Item con: No field(s) named
+deletecons
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:50:47 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:50:47 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          22:50:49 - 19/08/2026
+19-Aug-2026 22:50:49 - Done    'Factorial design specification'
+19-Aug-2026 22:50:49 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:50:49 - 19/08/2026
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:51:00 - 19/08/2026
+Done
+19-Aug-2026 22:51:00 - Done    'Model estimation'
+19-Aug-2026 22:51:00 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:51:00 - 19/08/2026
+========================================================================
+Contrasts folder                        :   ./contrast_02_music_vs_noise
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','/mnt/beegfs/workspace/2026-0458-MUSLOC/data/proc_elana/derivatives/spm_second_level_newfast/contrast_02_music_vs_noise','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:51:01 - 19/08/2026
+19-Aug-2026 22:51:01 - Done    'Contrast Manager'
+19-Aug-2026 22:51:01 - Done
+
+SUCCESS: Second-Level NEWFAST für contrast_02_music_vs_noise erfolgreich berechnet.
+
+===================================================
+Starte Second-Level (NEWFAST) für Kontrast 3: contrast_03_scrambled_vs_noise
+===================================================
+Item factorial_design: No field(s) named
+gmsca
+glonorm
+Item con: No field(s) named
+deletecons
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:51:02 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:51:02 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          22:51:03 - 19/08/2026
+19-Aug-2026 22:51:03 - Done    'Factorial design specification'
+19-Aug-2026 22:51:03 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:51:03 - 19/08/2026
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:51:14 - 19/08/2026
+Done
+19-Aug-2026 22:51:14 - Done    'Model estimation'
+19-Aug-2026 22:51:14 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:51:14 - 19/08/2026
+========================================================================
+Contrasts folder                        : ..ntrast_03_scrambled_vs_noise
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','/mnt/beegfs/workspace/2026-0458-MUSLOC/data/proc_elana/derivatives/spm_second_level_newfast/contrast_03_scrambled_vs_noise','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:51:15 - 19/08/2026
+19-Aug-2026 22:51:15 - Done    'Contrast Manager'
+19-Aug-2026 22:51:15 - Done
+
+SUCCESS: Second-Level NEWFAST für contrast_03_scrambled_vs_noise erfolgreich berechnet.
+
+===================================================
+Starte Second-Level (NEWFAST) für Kontrast 4: contrast_04_music_vs_all
+===================================================
+Item factorial_design: No field(s) named
+gmsca
+glonorm
+Item con: No field(s) named
+deletecons
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:51:17 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:51:17 - Running 'Factorial design specification'
+Mapping files                           :                        ...done
+Design configuration                    :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Design reporting                        :                        ...done
+Completed                               :          22:51:18 - 19/08/2026
+19-Aug-2026 22:51:18 - Done    'Factorial design specification'
+19-Aug-2026 22:51:18 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:51:18 - 19/08/2026
+========================================================================
+Chunk   1/1                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:51:29 - 19/08/2026
+Done
+19-Aug-2026 22:51:29 - Done    'Model estimation'
+19-Aug-2026 22:51:29 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:51:29 - 19/08/2026
+========================================================================
+Contrasts folder                        :     ./contrast_04_music_vs_all
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written <a href="matlab:[hReg,xSPM,SPM] = spm_results_ui('Setup',struct('swd','/mnt/beegfs/workspace/2026-0458-MUSLOC/data/proc_elana/derivatives/spm_second_level_newfast/contrast_04_music_vs_all','Ic',1));TabDat = spm_list('List',xSPM,hReg);;">spmT_0001.nii</a>
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:51:30 - 19/08/2026
+19-Aug-2026 22:51:30 - Done    'Contrast Manager'
+19-Aug-2026 22:51:30 - Done
+
+SUCCESS: Second-Level NEWFAST für contrast_04_music_vs_all erfolgreich berechnet.
+
+=========================================================================
+ALLE SECOND-LEVEL NEWFAST ANALYSEN BEENDET: 19-Aug-2026 22:51:30
+=========================================================================

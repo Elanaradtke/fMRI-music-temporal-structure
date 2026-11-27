@@ -1,0 +1,645 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 5 (24.2.0.2863752) 64-bit (glnxa64)
+                              January 31, 2025
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+===================================================
+Starte Preprocessing für: sub-01
+===================================================
+-> musicloc1 gefunden.
+-> Slice-Timings erfolgreich extrahiert.
+-> musicloc2 gefunden.
+Item estimate: No field(s) named
+fwhm
+
+
+------------------------------------------------------------------------
+16-Jun-2026 18:41:04 - Running job #1
+------------------------------------------------------------------------
+16-Jun-2026 18:41:04 - Running 'Realign: Estimate & Reslice'
+
+SPM25: spm_realign                                 18:41:04 - 16/06/2026
+========================================================================
+Completed                               :          18:50:41 - 16/06/2026
+
+SPM25: spm_reslice                                 18:50:41 - 16/06/2026
+========================================================================
+Completed                               :          18:52:19 - 16/06/2026
+16-Jun-2026 18:52:19 - Done    'Realign: Estimate & Reslice'
+16-Jun-2026 18:52:19 - Running 'Slice Timing'
+
+SPM25: spm_slice_timing                            18:52:19 - 16/06/2026
+========================================================================
+Number of slices is...                  :                             48
+Time to Repeat (TR) is...               :                          1.152
+Parameters are specified as...          :               slice times (ms)
+Completed                               :          18:54:51 - 16/06/2026
+16-Jun-2026 18:54:51 - Done    'Slice Timing'
+16-Jun-2026 18:54:51 - Running 'Coregister: Estimate'
+
+SPM25: spm_coreg                                   18:54:51 - 16/06/2026
+========================================================================
+Completed                               :          18:54:56 - 16/06/2026
+16-Jun-2026 18:54:56 - Done    'Coregister: Estimate'
+16-Jun-2026 18:54:56 - Running 'Segment'
+
+SPM25: spm_preproc_run                             18:54:56 - 16/06/2026
+========================================================================
+Segment /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/sub-01/t1w.nii,1
+Completed                               :          18:57:44 - 16/06/2026
+16-Jun-2026 18:57:44 - Done    'Segment'
+16-Jun-2026 18:57:44 - Running 'Normalise: Write'
+16-Jun-2026 18:59:25 - Done    'Normalise: Write'
+16-Jun-2026 18:59:25 - Running 'Smooth'
+16-Jun-2026 19:00:33 - Done    'Smooth'
+16-Jun-2026 19:00:33 - Done
+
+SUCCESS: Preprocessing für sub-01 beendet.
+
+===================================================
+Starte Preprocessing für: sub-02
+===================================================
+-> musicloc1 gefunden.
+-> Slice-Timings erfolgreich extrahiert.
+-> musicloc2 gefunden.
+Item estimate: No field(s) named
+fwhm
+
+
+------------------------------------------------------------------------
+16-Jun-2026 19:00:35 - Running job #1
+------------------------------------------------------------------------
+16-Jun-2026 19:00:35 - Running 'Realign: Estimate & Reslice'
+
+SPM25: spm_realign                                 19:00:35 - 16/06/2026
+========================================================================
+Completed                               :          19:08:04 - 16/06/2026
+
+SPM25: spm_reslice                                 19:08:04 - 16/06/2026
+========================================================================
+Completed                               :          19:09:42 - 16/06/2026
+16-Jun-2026 19:09:42 - Done    'Realign: Estimate & Reslice'
+16-Jun-2026 19:09:42 - Running 'Slice Timing'
+
+SPM25: spm_slice_timing                            19:09:42 - 16/06/2026
+========================================================================
+Number of slices is...                  :                             48
+Time to Repeat (TR) is...               :                          1.152
+Parameters are specified as...          :               slice times (ms)
+Completed                               :          19:12:15 - 16/06/2026
+16-Jun-2026 19:12:15 - Done    'Slice Timing'
+16-Jun-2026 19:12:15 - Running 'Coregister: Estimate'
+
+SPM25: spm_coreg                                   19:12:15 - 16/06/2026
+========================================================================
+Completed                               :          19:12:20 - 16/06/2026
+16-Jun-2026 19:12:20 - Done    'Coregister: Estimate'
+16-Jun-2026 19:12:21 - Running 'Segment'
+
+SPM25: spm_preproc_run                             19:12:21 - 16/06/2026
+========================================================================
+Segment /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/sub-02/t1w.nii,1
+Completed                               :          19:15:02 - 16/06/2026
+16-Jun-2026 19:15:02 - Done    'Segment'
+16-Jun-2026 19:15:03 - Running 'Normalise: Write'
+16-Jun-2026 19:16:44 - Done    'Normalise: Write'
+16-Jun-2026 19:16:44 - Running 'Smooth'
+16-Jun-2026 19:17:50 - Done    'Smooth'
+16-Jun-2026 19:17:50 - Done
+
+SUCCESS: Preprocessing für sub-02 beendet.
+
+===================================================
+Starte Preprocessing für: sub-03
+===================================================
+-> musicloc1 gefunden.
+-> Slice-Timings erfolgreich extrahiert.
+-> musicloc2 gefunden.
+Item estimate: No field(s) named
+fwhm
+
+
+------------------------------------------------------------------------
+16-Jun-2026 19:17:52 - Running job #1
+------------------------------------------------------------------------
+16-Jun-2026 19:17:52 - Running 'Realign: Estimate & Reslice'
+
+SPM25: spm_realign                                 19:17:52 - 16/06/2026
+========================================================================
+Completed                               :          19:26:19 - 16/06/2026
+
+SPM25: spm_reslice                                 19:26:19 - 16/06/2026
+========================================================================
+Completed                               :          19:27:55 - 16/06/2026
+16-Jun-2026 19:27:56 - Done    'Realign: Estimate & Reslice'
+16-Jun-2026 19:27:56 - Running 'Slice Timing'
+
+SPM25: spm_slice_timing                            19:27:56 - 16/06/2026
+========================================================================
+Number of slices is...                  :                             48
+Time to Repeat (TR) is...               :                          1.152
+Parameters are specified as...          :               slice times (ms)
+Completed                               :          19:30:27 - 16/06/2026
+16-Jun-2026 19:30:27 - Done    'Slice Timing'
+16-Jun-2026 19:30:27 - Running 'Coregister: Estimate'
+
+SPM25: spm_coreg                                   19:30:27 - 16/06/2026
+========================================================================
+Completed                               :          19:30:32 - 16/06/2026
+16-Jun-2026 19:30:32 - Done    'Coregister: Estimate'
+16-Jun-2026 19:30:32 - Running 'Segment'
+
+SPM25: spm_preproc_run                             19:30:32 - 16/06/2026
+========================================================================
+Segment /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/sub-03/t1w.nii,1
+Completed                               :          19:33:11 - 16/06/2026
+16-Jun-2026 19:33:11 - Done    'Segment'
+16-Jun-2026 19:33:11 - Running 'Normalise: Write'
+16-Jun-2026 19:34:49 - Done    'Normalise: Write'
+16-Jun-2026 19:34:49 - Running 'Smooth'
+16-Jun-2026 19:35:56 - Done    'Smooth'
+16-Jun-2026 19:35:56 - Done
+
+SUCCESS: Preprocessing für sub-03 beendet.
+
+===================================================
+Starte Preprocessing für: sub-04
+===================================================
+-> musicloc1 gefunden.
+-> Slice-Timings erfolgreich extrahiert.
+-> musicloc2 gefunden.
+Item estimate: No field(s) named
+fwhm
+
+
+------------------------------------------------------------------------
+16-Jun-2026 19:35:57 - Running job #1
+------------------------------------------------------------------------
+16-Jun-2026 19:35:58 - Running 'Realign: Estimate & Reslice'
+
+SPM25: spm_realign                                 19:35:58 - 16/06/2026
+========================================================================
+Completed                               :          19:44:07 - 16/06/2026
+
+SPM25: spm_reslice                                 19:44:07 - 16/06/2026
+========================================================================
+Completed                               :          19:45:43 - 16/06/2026
+16-Jun-2026 19:45:43 - Done    'Realign: Estimate & Reslice'
+16-Jun-2026 19:45:43 - Running 'Slice Timing'
+
+SPM25: spm_slice_timing                            19:45:43 - 16/06/2026
+========================================================================
+Number of slices is...                  :                             48
+Time to Repeat (TR) is...               :                          1.152
+Parameters are specified as...          :               slice times (ms)
+Completed                               :          19:48:15 - 16/06/2026
+16-Jun-2026 19:48:15 - Done    'Slice Timing'
+16-Jun-2026 19:48:15 - Running 'Coregister: Estimate'
+
+SPM25: spm_coreg                                   19:48:15 - 16/06/2026
+========================================================================
+Completed                               :          19:48:20 - 16/06/2026
+16-Jun-2026 19:48:21 - Done    'Coregister: Estimate'
+16-Jun-2026 19:48:21 - Running 'Segment'
+
+SPM25: spm_preproc_run                             19:48:21 - 16/06/2026
+========================================================================
+Segment /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/sub-04/t1w.nii,1
+Completed                               :          19:51:04 - 16/06/2026
+16-Jun-2026 19:51:04 - Done    'Segment'
+16-Jun-2026 19:51:04 - Running 'Normalise: Write'
+16-Jun-2026 19:52:43 - Done    'Normalise: Write'
+16-Jun-2026 19:52:43 - Running 'Smooth'
+16-Jun-2026 19:53:51 - Done    'Smooth'
+16-Jun-2026 19:53:51 - Done
+
+SUCCESS: Preprocessing für sub-04 beendet.
+
+===================================================
+Starte Preprocessing für: sub-05
+===================================================
+-> musicloc1 gefunden.
+-> Slice-Timings erfolgreich extrahiert.
+-> musicloc2 gefunden.
+Item estimate: No field(s) named
+fwhm
+
+
+------------------------------------------------------------------------
+16-Jun-2026 19:53:52 - Running job #1
+------------------------------------------------------------------------
+16-Jun-2026 19:53:52 - Running 'Realign: Estimate & Reslice'
+
+SPM25: spm_realign                                 19:53:52 - 16/06/2026
+========================================================================
+Completed                               :          20:01:51 - 16/06/2026
+
+SPM25: spm_reslice                                 20:01:51 - 16/06/2026
+========================================================================
+Completed                               :          20:03:29 - 16/06/2026
+16-Jun-2026 20:03:29 - Done    'Realign: Estimate & Reslice'
+16-Jun-2026 20:03:29 - Running 'Slice Timing'
+
+SPM25: spm_slice_timing                            20:03:29 - 16/06/2026
+========================================================================
+Number of slices is...                  :                             48
+Time to Repeat (TR) is...               :                          1.152
+Parameters are specified as...          :               slice times (ms)
+Completed                               :          20:06:03 - 16/06/2026
+16-Jun-2026 20:06:03 - Done    'Slice Timing'
+16-Jun-2026 20:06:03 - Running 'Coregister: Estimate'
+
+SPM25: spm_coreg                                   20:06:03 - 16/06/2026
+========================================================================
+Completed                               :          20:06:10 - 16/06/2026
+16-Jun-2026 20:06:10 - Done    'Coregister: Estimate'
+16-Jun-2026 20:06:10 - Running 'Segment'
+
+SPM25: spm_preproc_run                             20:06:10 - 16/06/2026
+========================================================================
+Segment /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/sub-05/t1w.nii,1
+Completed                               :          20:09:03 - 16/06/2026
+16-Jun-2026 20:09:03 - Done    'Segment'
+16-Jun-2026 20:09:03 - Running 'Normalise: Write'
+16-Jun-2026 20:10:39 - Done    'Normalise: Write'
+16-Jun-2026 20:10:39 - Running 'Smooth'
+16-Jun-2026 20:11:46 - Done    'Smooth'
+16-Jun-2026 20:11:46 - Done
+
+SUCCESS: Preprocessing für sub-05 beendet.
+
+===================================================
+Starte Preprocessing für: sub-06
+===================================================
+-> musicloc1 gefunden.
+-> Slice-Timings erfolgreich extrahiert.
+Item estimate: No field(s) named
+fwhm
+
+
+------------------------------------------------------------------------
+16-Jun-2026 20:11:48 - Running job #1
+------------------------------------------------------------------------
+16-Jun-2026 20:11:48 - Running 'Realign: Estimate & Reslice'
+
+SPM25: spm_realign                                 20:11:48 - 16/06/2026
+========================================================================
+Completed                               :          20:16:11 - 16/06/2026
+
+SPM25: spm_reslice                                 20:16:11 - 16/06/2026
+========================================================================
+Completed                               :          20:17:01 - 16/06/2026
+16-Jun-2026 20:17:01 - Done    'Realign: Estimate & Reslice'
+16-Jun-2026 20:17:01 - Running 'Slice Timing'
+
+SPM25: spm_slice_timing                            20:17:01 - 16/06/2026
+========================================================================
+Number of slices is...                  :                             48
+Time to Repeat (TR) is...               :                          1.152
+Parameters are specified as...          :               slice times (ms)
+Completed                               :          20:18:21 - 16/06/2026
+16-Jun-2026 20:18:21 - Done    'Slice Timing'
+16-Jun-2026 20:18:21 - Running 'Coregister: Estimate'
+
+SPM25: spm_coreg                                   20:18:21 - 16/06/2026
+========================================================================
+Completed                               :          20:18:26 - 16/06/2026
+16-Jun-2026 20:18:26 - Done    'Coregister: Estimate'
+16-Jun-2026 20:18:26 - Running 'Segment'
+
+SPM25: spm_preproc_run                             20:18:26 - 16/06/2026
+========================================================================
+Segment /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/sub-06/t1w.nii,1
+Completed                               :          20:21:04 - 16/06/2026
+16-Jun-2026 20:21:04 - Done    'Segment'
+16-Jun-2026 20:21:04 - Running 'Normalise: Write'
+16-Jun-2026 20:22:44 - Done    'Normalise: Write'
+16-Jun-2026 20:22:44 - Running 'Smooth'
+16-Jun-2026 20:23:52 - Done    'Smooth'
+16-Jun-2026 20:23:52 - Done
+
+SUCCESS: Preprocessing für sub-06 beendet.
+
+===================================================
+Starte Preprocessing für: sub-07
+===================================================
+-> musicloc1 gefunden.
+-> Slice-Timings erfolgreich extrahiert.
+-> musicloc2 gefunden.
+Item estimate: No field(s) named
+fwhm
+
+
+------------------------------------------------------------------------
+16-Jun-2026 20:23:53 - Running job #1
+------------------------------------------------------------------------
+16-Jun-2026 20:23:53 - Running 'Realign: Estimate & Reslice'
+
+SPM25: spm_realign                                 20:23:53 - 16/06/2026
+========================================================================
+Completed                               :          20:32:07 - 16/06/2026
+
+SPM25: spm_reslice                                 20:32:07 - 16/06/2026
+========================================================================
+Completed                               :          20:33:44 - 16/06/2026
+16-Jun-2026 20:33:45 - Done    'Realign: Estimate & Reslice'
+16-Jun-2026 20:33:45 - Running 'Slice Timing'
+
+SPM25: spm_slice_timing                            20:33:45 - 16/06/2026
+========================================================================
+Number of slices is...                  :                             48
+Time to Repeat (TR) is...               :                          1.152
+Parameters are specified as...          :               slice times (ms)
+Completed                               :          20:36:16 - 16/06/2026
+16-Jun-2026 20:36:16 - Done    'Slice Timing'
+16-Jun-2026 20:36:16 - Running 'Coregister: Estimate'
+
+SPM25: spm_coreg                                   20:36:16 - 16/06/2026
+========================================================================
+Completed                               :          20:36:25 - 16/06/2026
+16-Jun-2026 20:36:25 - Done    'Coregister: Estimate'
+16-Jun-2026 20:36:25 - Running 'Segment'
+
+SPM25: spm_preproc_run                             20:36:25 - 16/06/2026
+========================================================================
+Segment /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/sub-07/t1w.nii,1
+Completed                               :          20:39:06 - 16/06/2026
+16-Jun-2026 20:39:06 - Done    'Segment'
+16-Jun-2026 20:39:06 - Running 'Normalise: Write'
+16-Jun-2026 20:40:44 - Done    'Normalise: Write'
+16-Jun-2026 20:40:44 - Running 'Smooth'
+16-Jun-2026 20:41:51 - Done    'Smooth'
+16-Jun-2026 20:41:51 - Done
+
+SUCCESS: Preprocessing für sub-07 beendet.
+
+===================================================
+Starte Preprocessing für: sub-08
+===================================================
+-> musicloc1 gefunden.
+-> Slice-Timings erfolgreich extrahiert.
+-> musicloc2 gefunden.
+Item estimate: No field(s) named
+fwhm
+
+
+------------------------------------------------------------------------
+16-Jun-2026 20:41:53 - Running job #1
+------------------------------------------------------------------------
+16-Jun-2026 20:41:53 - Running 'Realign: Estimate & Reslice'
+
+SPM25: spm_realign                                 20:41:53 - 16/06/2026
+========================================================================
+Completed                               :          20:50:04 - 16/06/2026
+
+SPM25: spm_reslice                                 20:50:04 - 16/06/2026
+========================================================================
+Completed                               :          20:51:40 - 16/06/2026
+16-Jun-2026 20:51:40 - Done    'Realign: Estimate & Reslice'
+16-Jun-2026 20:51:40 - Running 'Slice Timing'
+
+SPM25: spm_slice_timing                            20:51:40 - 16/06/2026
+========================================================================
+Number of slices is...                  :                             48
+Time to Repeat (TR) is...               :                          1.152
+Parameters are specified as...          :               slice times (ms)
+Completed                               :          20:54:14 - 16/06/2026
+16-Jun-2026 20:54:14 - Done    'Slice Timing'
+16-Jun-2026 20:54:14 - Running 'Coregister: Estimate'
+
+SPM25: spm_coreg                                   20:54:14 - 16/06/2026
+========================================================================
+Completed                               :          20:54:19 - 16/06/2026
+16-Jun-2026 20:54:19 - Done    'Coregister: Estimate'
+16-Jun-2026 20:54:19 - Running 'Segment'
+
+SPM25: spm_preproc_run                             20:54:19 - 16/06/2026
+========================================================================
+Segment /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/sub-08/t1w.nii,1
+Completed                               :          20:56:59 - 16/06/2026
+16-Jun-2026 20:56:59 - Done    'Segment'
+16-Jun-2026 20:56:59 - Running 'Normalise: Write'
+16-Jun-2026 20:58:38 - Done    'Normalise: Write'
+16-Jun-2026 20:58:38 - Running 'Smooth'
+16-Jun-2026 20:59:42 - Done    'Smooth'
+16-Jun-2026 20:59:42 - Done
+
+SUCCESS: Preprocessing für sub-08 beendet.
+
+===================================================
+Starte Preprocessing für: sub-09
+===================================================
+-> musicloc1 gefunden.
+-> Slice-Timings erfolgreich extrahiert.
+-> musicloc2 gefunden.
+Item estimate: No field(s) named
+fwhm
+
+
+------------------------------------------------------------------------
+16-Jun-2026 20:59:44 - Running job #1
+------------------------------------------------------------------------
+16-Jun-2026 20:59:44 - Running 'Realign: Estimate & Reslice'
+
+SPM25: spm_realign                                 20:59:44 - 16/06/2026
+========================================================================
+Completed                               :          21:07:19 - 16/06/2026
+
+SPM25: spm_reslice                                 21:07:19 - 16/06/2026
+========================================================================
+Completed                               :          21:08:54 - 16/06/2026
+16-Jun-2026 21:08:54 - Done    'Realign: Estimate & Reslice'
+16-Jun-2026 21:08:54 - Running 'Slice Timing'
+
+SPM25: spm_slice_timing                            21:08:54 - 16/06/2026
+========================================================================
+Number of slices is...                  :                             48
+Time to Repeat (TR) is...               :                          1.152
+Parameters are specified as...          :               slice times (ms)
+Completed                               :          21:11:22 - 16/06/2026
+16-Jun-2026 21:11:23 - Done    'Slice Timing'
+16-Jun-2026 21:11:23 - Running 'Coregister: Estimate'
+
+SPM25: spm_coreg                                   21:11:23 - 16/06/2026
+========================================================================
+Completed                               :          21:11:29 - 16/06/2026
+16-Jun-2026 21:11:29 - Done    'Coregister: Estimate'
+16-Jun-2026 21:11:29 - Running 'Segment'
+
+SPM25: spm_preproc_run                             21:11:29 - 16/06/2026
+========================================================================
+Segment /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/sub-09/t1w.nii,1
+Completed                               :          21:14:07 - 16/06/2026
+16-Jun-2026 21:14:07 - Done    'Segment'
+16-Jun-2026 21:14:07 - Running 'Normalise: Write'
+16-Jun-2026 21:15:44 - Done    'Normalise: Write'
+16-Jun-2026 21:15:44 - Running 'Smooth'
+16-Jun-2026 21:16:45 - Done    'Smooth'
+16-Jun-2026 21:16:45 - Done
+
+SUCCESS: Preprocessing für sub-09 beendet.
+
+===================================================
+Starte Preprocessing für: sub-10
+===================================================
+-> musicloc1 gefunden.
+-> Slice-Timings erfolgreich extrahiert.
+-> musicloc2 gefunden.
+Item estimate: No field(s) named
+fwhm
+
+
+------------------------------------------------------------------------
+16-Jun-2026 21:16:47 - Running job #1
+------------------------------------------------------------------------
+16-Jun-2026 21:16:47 - Running 'Realign: Estimate & Reslice'
+
+SPM25: spm_realign                                 21:16:47 - 16/06/2026
+========================================================================
+Completed                               :          21:24:16 - 16/06/2026
+
+SPM25: spm_reslice                                 21:24:16 - 16/06/2026
+========================================================================
+Completed                               :          21:25:52 - 16/06/2026
+16-Jun-2026 21:25:53 - Done    'Realign: Estimate & Reslice'
+16-Jun-2026 21:25:53 - Running 'Slice Timing'
+
+SPM25: spm_slice_timing                            21:25:53 - 16/06/2026
+========================================================================
+Number of slices is...                  :                             48
+Time to Repeat (TR) is...               :                          1.152
+Parameters are specified as...          :               slice times (ms)
+Completed                               :          21:28:18 - 16/06/2026
+16-Jun-2026 21:28:18 - Done    'Slice Timing'
+16-Jun-2026 21:28:18 - Running 'Coregister: Estimate'
+
+SPM25: spm_coreg                                   21:28:18 - 16/06/2026
+========================================================================
+Completed                               :          21:28:23 - 16/06/2026
+16-Jun-2026 21:28:23 - Done    'Coregister: Estimate'
+16-Jun-2026 21:28:23 - Running 'Segment'
+
+SPM25: spm_preproc_run                             21:28:23 - 16/06/2026
+========================================================================
+Segment /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/sub-10/t1w.nii,1
+Completed                               :          21:31:06 - 16/06/2026
+16-Jun-2026 21:31:06 - Done    'Segment'
+16-Jun-2026 21:31:06 - Running 'Normalise: Write'
+16-Jun-2026 21:32:45 - Done    'Normalise: Write'
+16-Jun-2026 21:32:45 - Running 'Smooth'
+16-Jun-2026 21:33:47 - Done    'Smooth'
+16-Jun-2026 21:33:47 - Done
+
+SUCCESS: Preprocessing für sub-10 beendet.
+
+===================================================
+Starte Preprocessing für: sub-11
+===================================================
+-> musicloc1 gefunden.
+-> Slice-Timings erfolgreich extrahiert.
+-> musicloc2 gefunden.
+Item estimate: No field(s) named
+fwhm
+
+
+------------------------------------------------------------------------
+16-Jun-2026 21:33:48 - Running job #1
+------------------------------------------------------------------------
+16-Jun-2026 21:33:48 - Running 'Realign: Estimate & Reslice'
+
+SPM25: spm_realign                                 21:33:48 - 16/06/2026
+========================================================================
+Completed                               :          21:42:17 - 16/06/2026
+
+SPM25: spm_reslice                                 21:42:17 - 16/06/2026
+========================================================================
+Completed                               :          21:43:53 - 16/06/2026
+16-Jun-2026 21:43:53 - Done    'Realign: Estimate & Reslice'
+16-Jun-2026 21:43:53 - Running 'Slice Timing'
+
+SPM25: spm_slice_timing                            21:43:53 - 16/06/2026
+========================================================================
+Number of slices is...                  :                             48
+Time to Repeat (TR) is...               :                          1.152
+Parameters are specified as...          :               slice times (ms)
+Completed                               :          21:46:18 - 16/06/2026
+16-Jun-2026 21:46:18 - Done    'Slice Timing'
+16-Jun-2026 21:46:18 - Running 'Coregister: Estimate'
+
+SPM25: spm_coreg                                   21:46:18 - 16/06/2026
+========================================================================
+Completed                               :          21:46:27 - 16/06/2026
+16-Jun-2026 21:46:27 - Done    'Coregister: Estimate'
+16-Jun-2026 21:46:27 - Running 'Segment'
+
+SPM25: spm_preproc_run                             21:46:27 - 16/06/2026
+========================================================================
+Segment /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/sub-11/t1w.nii,1
+Completed                               :          21:49:34 - 16/06/2026
+16-Jun-2026 21:49:34 - Done    'Segment'
+16-Jun-2026 21:49:34 - Running 'Normalise: Write'
+16-Jun-2026 21:51:07 - Done    'Normalise: Write'
+16-Jun-2026 21:51:07 - Running 'Smooth'
+16-Jun-2026 21:52:08 - Done    'Smooth'
+16-Jun-2026 21:52:08 - Done
+
+SUCCESS: Preprocessing für sub-11 beendet.
+
+===================================================
+Starte Preprocessing für: sub-12
+===================================================
+-> musicloc1 gefunden.
+-> Slice-Timings erfolgreich extrahiert.
+-> musicloc2 gefunden.
+Item estimate: No field(s) named
+fwhm
+
+
+------------------------------------------------------------------------
+16-Jun-2026 21:52:10 - Running job #1
+------------------------------------------------------------------------
+16-Jun-2026 21:52:10 - Running 'Realign: Estimate & Reslice'
+
+SPM25: spm_realign                                 21:52:10 - 16/06/2026
+========================================================================
+Completed                               :          22:00:23 - 16/06/2026
+
+SPM25: spm_reslice                                 22:00:23 - 16/06/2026
+========================================================================
+Completed                               :          22:01:59 - 16/06/2026
+16-Jun-2026 22:01:59 - Done    'Realign: Estimate & Reslice'
+16-Jun-2026 22:01:59 - Running 'Slice Timing'
+
+SPM25: spm_slice_timing                            22:01:59 - 16/06/2026
+========================================================================
+Number of slices is...                  :                             48
+Time to Repeat (TR) is...               :                          1.152
+Parameters are specified as...          :               slice times (ms)
+Completed                               :          22:04:24 - 16/06/2026
+16-Jun-2026 22:04:24 - Done    'Slice Timing'
+16-Jun-2026 22:04:24 - Running 'Coregister: Estimate'
+
+SPM25: spm_coreg                                   22:04:24 - 16/06/2026
+========================================================================
+Completed                               :          22:04:33 - 16/06/2026
+16-Jun-2026 22:04:33 - Done    'Coregister: Estimate'
+16-Jun-2026 22:04:33 - Running 'Segment'
+
+SPM25: spm_preproc_run                             22:04:33 - 16/06/2026
+========================================================================
+Segment /hpc/workspace/2026-0458-MUSLOC/data/proc_elana/sub-12/t1w.nii,1
+Completed                               :          22:07:39 - 16/06/2026
+16-Jun-2026 22:07:39 - Done    'Segment'
+16-Jun-2026 22:07:39 - Running 'Normalise: Write'
+16-Jun-2026 22:09:19 - Done    'Normalise: Write'
+16-Jun-2026 22:09:19 - Running 'Smooth'
+16-Jun-2026 22:10:18 - Done    'Smooth'
+16-Jun-2026 22:10:18 - Done
+
+SUCCESS: Preprocessing für sub-12 beendet.

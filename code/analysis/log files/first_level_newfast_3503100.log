@@ -1,0 +1,1006 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 5 (24.2.0.2863752) 64-bit (glnxa64)
+                              January 31, 2025
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+===================================================
+Starte erweitertes First-Level für: sub-01
+===================================================
+  -> Füge Session 1 hinzu (Run 06, musicloc1)
+  -> Füge Session 2 hinzu (Run 07, musicloc2)
+  -> Explizite Maske geladen: mask.nii
+Initialising batch system... done.
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:37:15 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:37:15 - Running 'fMRI model specification'
+
+SPM25: spm_fMRI_design                             22:37:16 - 19/08/2026
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM25: spm_fmri_spm_ui                             22:37:16 - 19/08/2026
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          22:37:28 - 19/08/2026
+19-Aug-2026 22:37:28 - Done    'fMRI model specification'
+19-Aug-2026 22:37:29 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:37:29 - 19/08/2026
+========================================================================
+
+SPM25: spm_est_non_sphericity                      22:37:30 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (166501 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.054441e+02 [+4.25]
+  ReML Iteration 2                      :        ...4.919417e-01 [+4.50]
+  ReML Iteration 3                      :        ...1.311102e-02 [+4.75]
+  ReML Iteration 1                      :        ...1.054328e+02 [+5.00]
+  ReML Iteration 2                      :        ...4.598517e-01 [+5.25]
+  ReML Iteration 3                      :        ...6.825292e-03 [+5.50]
+  ReML Iteration 1                      :        ...1.011611e+02 [+5.75]
+  ReML Iteration 2                      :        ...6.346954e-01 [+6.00]
+  ReML Iteration 3                      :        ...1.200594e-02 [+6.25]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.114823e+02 [+4.25]
+  ReML Iteration 2                      :        ...4.216535e-01 [+4.50]
+  ReML Iteration 3                      :        ...1.399312e-02 [+4.75]
+  ReML Iteration 1                      :        ...1.114627e+02 [+5.00]
+  ReML Iteration 2                      :        ...4.573891e-01 [+5.25]
+  ReML Iteration 3                      :        ...5.907205e-03 [+5.50]
+  ReML Iteration 1                      :        ...1.080456e+02 [+5.75]
+  ReML Iteration 2                      :        ...4.456906e-01 [+6.00]
+  ReML Iteration 3                      :        ...6.709012e-03 [+6.25]
+
+SPM25: spm_spm                                     22:37:56 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:38:20 - 19/08/2026
+Done
+19-Aug-2026 22:38:20 - Done    'Model estimation'
+19-Aug-2026 22:38:20 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:38:20 - 19/08/2026
+========================================================================
+Contrasts folder                        :                       ./sub-01
+Deleting contrasts                      :                        ...done
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written spmT_0001.nii
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written spmT_0002.nii
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written spmT_0003.nii
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written spmT_0004.nii
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:38:22 - 19/08/2026
+19-Aug-2026 22:38:22 - Done    'Contrast Manager'
+19-Aug-2026 22:38:22 - Done
+
+SUCCESS: Erweitertes First-Level für sub-01 beendet.
+
+===================================================
+Starte erweitertes First-Level für: sub-02
+===================================================
+  -> Füge Session 1 hinzu (Run 06, musicloc1)
+  -> Füge Session 2 hinzu (Run 07, musicloc2)
+  -> Explizite Maske geladen: mask.nii
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:38:24 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:38:24 - Running 'fMRI model specification'
+
+SPM25: spm_fMRI_design                             22:38:24 - 19/08/2026
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM25: spm_fmri_spm_ui                             22:38:24 - 19/08/2026
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          22:38:35 - 19/08/2026
+19-Aug-2026 22:38:35 - Done    'fMRI model specification'
+19-Aug-2026 22:38:35 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:38:36 - 19/08/2026
+========================================================================
+
+SPM25: spm_est_non_sphericity                      22:38:37 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (165413 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.089219e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.557764e-01 [+4.50]
+  ReML Iteration 3                      :        ...2.664313e-03 [+4.75]
+  ReML Iteration 1                      :        ...1.089216e+02 [+5.00]
+  ReML Iteration 2                      :        ...1.646804e-01 [+5.25]
+  ReML Iteration 3                      :        ...7.415719e-04 [+5.50]
+  ReML Iteration 1                      :        ...1.049145e+02 [+5.75]
+  ReML Iteration 2                      :        ...2.955540e-01 [+6.00]
+  ReML Iteration 3                      :        ...1.413181e-03 [+6.25]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.041676e+02 [+4.25]
+  ReML Iteration 2                      :        ...9.214379e-02 [+4.50]
+  ReML Iteration 1                      :        ...1.041645e+02 [+4.75]
+  ReML Iteration 2                      :        ...1.249274e-01 [+5.00]
+  ReML Iteration 3                      :        ...5.155753e-04 [+5.25]
+  ReML Iteration 1                      :        ...1.005195e+02 [+5.50]
+  ReML Iteration 2                      :        ...1.693268e-01 [+5.75]
+  ReML Iteration 3                      :        ...7.019620e-04 [+6.00]
+
+SPM25: spm_spm                                     22:39:01 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:39:25 - 19/08/2026
+Done
+19-Aug-2026 22:39:25 - Done    'Model estimation'
+19-Aug-2026 22:39:25 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:39:25 - 19/08/2026
+========================================================================
+Contrasts folder                        :                       ./sub-02
+Deleting contrasts                      :                        ...done
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written spmT_0001.nii
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written spmT_0002.nii
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written spmT_0003.nii
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written spmT_0004.nii
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:39:26 - 19/08/2026
+19-Aug-2026 22:39:26 - Done    'Contrast Manager'
+19-Aug-2026 22:39:26 - Done
+
+SUCCESS: Erweitertes First-Level für sub-02 beendet.
+
+===================================================
+Starte erweitertes First-Level für: sub-03
+===================================================
+  -> Füge Session 1 hinzu (Run 06, musicloc1)
+  -> Füge Session 2 hinzu (Run 07, musicloc2)
+  -> Explizite Maske geladen: mask.nii
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:39:28 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:39:28 - Running 'fMRI model specification'
+
+SPM25: spm_fMRI_design                             22:39:28 - 19/08/2026
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM25: spm_fmri_spm_ui                             22:39:28 - 19/08/2026
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          22:39:39 - 19/08/2026
+19-Aug-2026 22:39:39 - Done    'fMRI model specification'
+19-Aug-2026 22:39:39 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:39:39 - 19/08/2026
+========================================================================
+
+SPM25: spm_est_non_sphericity                      22:39:40 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (174298 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.057337e+02 [+4.25]
+  ReML Iteration 2                      :        ...2.032026e-01 [+4.50]
+  ReML Iteration 3                      :        ...8.099237e-03 [+4.75]
+  ReML Iteration 1                      :        ...1.057315e+02 [+5.00]
+  ReML Iteration 2                      :        ...2.159916e-01 [+5.25]
+  ReML Iteration 3                      :        ...1.892720e-03 [+5.50]
+  ReML Iteration 1                      :        ...1.018020e+02 [+5.75]
+  ReML Iteration 2                      :        ...2.537186e-01 [+6.00]
+  ReML Iteration 3                      :        ...4.353313e-03 [+6.25]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.022607e+02 [+4.25]
+  ReML Iteration 2                      :        ...2.540071e-01 [+4.50]
+  ReML Iteration 3                      :        ...1.811704e-02 [+4.75]
+  ReML Iteration 1                      :        ...1.022591e+02 [+5.00]
+  ReML Iteration 2                      :        ...1.964182e-01 [+5.25]
+  ReML Iteration 3                      :        ...2.749681e-03 [+5.50]
+  ReML Iteration 1                      :        ...9.866552e+01 [+5.75]
+  ReML Iteration 2                      :        ...2.785398e-01 [+6.00]
+  ReML Iteration 3                      :        ...2.392542e-03 [+6.25]
+
+SPM25: spm_spm                                     22:40:05 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:40:30 - 19/08/2026
+Done
+19-Aug-2026 22:40:30 - Done    'Model estimation'
+19-Aug-2026 22:40:30 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:40:30 - 19/08/2026
+========================================================================
+Contrasts folder                        :                       ./sub-03
+Deleting contrasts                      :                        ...done
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written spmT_0001.nii
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written spmT_0002.nii
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written spmT_0003.nii
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written spmT_0004.nii
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:40:32 - 19/08/2026
+19-Aug-2026 22:40:32 - Done    'Contrast Manager'
+19-Aug-2026 22:40:32 - Done
+
+SUCCESS: Erweitertes First-Level für sub-03 beendet.
+
+===================================================
+Starte erweitertes First-Level für: sub-04
+===================================================
+  -> Füge Session 1 hinzu (Run 06, musicloc1)
+  -> Füge Session 2 hinzu (Run 07, musicloc2)
+  -> Explizite Maske geladen: mask.nii
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:40:33 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:40:33 - Running 'fMRI model specification'
+
+SPM25: spm_fMRI_design                             22:40:34 - 19/08/2026
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM25: spm_fmri_spm_ui                             22:40:34 - 19/08/2026
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          22:40:44 - 19/08/2026
+19-Aug-2026 22:40:44 - Done    'fMRI model specification'
+19-Aug-2026 22:40:44 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:40:44 - 19/08/2026
+========================================================================
+
+SPM25: spm_est_non_sphericity                      22:40:45 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (170549 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.114229e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.435165e-01 [+4.50]
+  ReML Iteration 3                      :        ...9.506997e-03 [+4.75]
+  ReML Iteration 1                      :        ...1.114153e+02 [+5.00]
+  ReML Iteration 2                      :        ...1.444582e-01 [+5.25]
+  ReML Iteration 3                      :        ...3.589912e-03 [+5.50]
+  ReML Iteration 1                      :        ...1.076644e+02 [+5.75]
+  ReML Iteration 2                      :        ...1.794021e-01 [+6.00]
+  ReML Iteration 3                      :        ...2.599600e-03 [+6.25]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.042801e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.769781e-01 [+4.50]
+  ReML Iteration 3                      :        ...8.828302e-03 [+4.75]
+  ReML Iteration 1                      :        ...1.042521e+02 [+5.00]
+  ReML Iteration 2                      :        ...1.702076e-01 [+5.25]
+  ReML Iteration 3                      :        ...1.554373e-03 [+5.50]
+  ReML Iteration 1                      :        ...1.004531e+02 [+5.75]
+  ReML Iteration 2                      :        ...2.877586e-01 [+6.00]
+  ReML Iteration 3                      :        ...1.596610e-03 [+6.25]
+
+SPM25: spm_spm                                     22:41:10 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:41:34 - 19/08/2026
+Done
+19-Aug-2026 22:41:34 - Done    'Model estimation'
+19-Aug-2026 22:41:34 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:41:34 - 19/08/2026
+========================================================================
+Contrasts folder                        :                       ./sub-04
+Deleting contrasts                      :                        ...done
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written spmT_0001.nii
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written spmT_0002.nii
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written spmT_0003.nii
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written spmT_0004.nii
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:41:35 - 19/08/2026
+19-Aug-2026 22:41:35 - Done    'Contrast Manager'
+19-Aug-2026 22:41:35 - Done
+
+SUCCESS: Erweitertes First-Level für sub-04 beendet.
+
+===================================================
+Starte erweitertes First-Level für: sub-05
+===================================================
+  -> Füge Session 1 hinzu (Run 06, musicloc1)
+  -> Füge Session 2 hinzu (Run 07, musicloc2)
+  -> Explizite Maske geladen: mask.nii
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:41:37 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:41:37 - Running 'fMRI model specification'
+
+SPM25: spm_fMRI_design                             22:41:37 - 19/08/2026
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM25: spm_fmri_spm_ui                             22:41:37 - 19/08/2026
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          22:41:48 - 19/08/2026
+19-Aug-2026 22:41:48 - Done    'fMRI model specification'
+19-Aug-2026 22:41:48 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:41:48 - 19/08/2026
+========================================================================
+
+SPM25: spm_est_non_sphericity                      22:41:49 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (145792 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.009580e+02 [+4.25]
+  ReML Iteration 2                      :        ...9.943933e-01 [+4.50]
+  ReML Iteration 3                      :        ...6.109223e-02 [+4.75]
+  ReML Iteration 1                      :        ...1.009431e+02 [+5.00]
+  ReML Iteration 2                      :        ...7.806775e-01 [+5.25]
+  ReML Iteration 3                      :        ...2.499843e-02 [+5.50]
+  ReML Iteration 1                      :        ...9.644395e+01 [+5.75]
+  ReML Iteration 2                      :        ...9.389892e-01 [+6.00]
+  ReML Iteration 3                      :        ...2.597517e-02 [+6.25]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.160459e+02 [+4.25]
+  ReML Iteration 2                      :        ...9.814946e-02 [+4.50]
+  ReML Iteration 1                      :        ...1.160453e+02 [+4.75]
+  ReML Iteration 2                      :        ...8.878334e-02 [+5.00]
+  ReML Iteration 1                      :        ...1.129883e+02 [+5.25]
+  ReML Iteration 2                      :        ...9.759422e-02 [+5.50]
+  ReML Iteration 1                      :        ...1.129938e+02 [+5.75]
+  ReML Iteration 2                      :        ...1.094740e-01 [+6.00]
+  ReML Iteration 3                      :        ...3.827766e-04 [+6.25]
+
+SPM25: spm_spm                                     22:42:12 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:42:34 - 19/08/2026
+Done
+19-Aug-2026 22:42:34 - Done    'Model estimation'
+19-Aug-2026 22:42:34 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:42:34 - 19/08/2026
+========================================================================
+Contrasts folder                        :                       ./sub-05
+Deleting contrasts                      :                        ...done
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written spmT_0001.nii
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written spmT_0002.nii
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written spmT_0003.nii
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written spmT_0004.nii
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:42:36 - 19/08/2026
+19-Aug-2026 22:42:36 - Done    'Contrast Manager'
+19-Aug-2026 22:42:36 - Done
+
+SUCCESS: Erweitertes First-Level für sub-05 beendet.
+
+===================================================
+Starte erweitertes First-Level für: sub-06
+===================================================
+  -> Füge Session 1 hinzu (Run 06, musicloc1)
+  INFO: Run 07 (musicloc2) nicht vollständig vorhanden. Übersprungen.
+  -> Explizite Maske geladen: mask.nii
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:42:37 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:42:37 - Running 'fMRI model specification'
+
+SPM25: spm_fMRI_design                             22:42:37 - 19/08/2026
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM25: spm_fmri_spm_ui                             22:42:38 - 19/08/2026
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          22:42:43 - 19/08/2026
+19-Aug-2026 22:42:43 - Done    'fMRI model specification'
+19-Aug-2026 22:42:43 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:42:43 - 19/08/2026
+========================================================================
+
+SPM25: spm_est_non_sphericity                      22:42:43 - 19/08/2026
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Temporal non-sphericity (171951 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.106837e+02 [+4.25]
+  ReML Iteration 2                      :        ...2.278293e-01 [+4.50]
+  ReML Iteration 3                      :        ...3.614896e-03 [+4.75]
+  ReML Iteration 1                      :        ...1.106579e+02 [+5.00]
+  ReML Iteration 2                      :        ...2.954720e-01 [+5.25]
+  ReML Iteration 3                      :        ...1.948739e-03 [+5.50]
+  ReML Iteration 1                      :        ...1.066655e+02 [+5.75]
+  ReML Iteration 2                      :        ...3.422426e-01 [+6.00]
+  ReML Iteration 3                      :        ...2.817716e-03 [+6.25]
+
+SPM25: spm_spm                                     22:42:55 - 19/08/2026
+========================================================================
+Chunk   1/2                             :                  ...processing                       ...doneChunk   2/2                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:43:10 - 19/08/2026
+Done
+19-Aug-2026 22:43:10 - Done    'Model estimation'
+19-Aug-2026 22:43:10 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:43:10 - 19/08/2026
+========================================================================
+Contrasts folder                        :                       ./sub-06
+Deleting contrasts                      :                        ...done
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written spmT_0001.nii
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written spmT_0002.nii
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written spmT_0003.nii
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written spmT_0004.nii
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:43:11 - 19/08/2026
+19-Aug-2026 22:43:11 - Done    'Contrast Manager'
+19-Aug-2026 22:43:11 - Done
+
+SUCCESS: Erweitertes First-Level für sub-06 beendet.
+
+===================================================
+Starte erweitertes First-Level für: sub-07
+===================================================
+  -> Füge Session 1 hinzu (Run 06, musicloc1)
+  -> Füge Session 2 hinzu (Run 07, musicloc2)
+  -> Explizite Maske geladen: mask.nii
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:43:12 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:43:12 - Running 'fMRI model specification'
+
+SPM25: spm_fMRI_design                             22:43:13 - 19/08/2026
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM25: spm_fmri_spm_ui                             22:43:13 - 19/08/2026
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          22:43:23 - 19/08/2026
+19-Aug-2026 22:43:23 - Done    'fMRI model specification'
+19-Aug-2026 22:43:23 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:43:23 - 19/08/2026
+========================================================================
+
+SPM25: spm_est_non_sphericity                      22:43:25 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (175904 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.163891e+02 [+4.25]
+  ReML Iteration 2                      :        ...9.126298e-01 [+4.50]
+  ReML Iteration 3                      :        ...3.117110e-02 [+4.75]
+  ReML Iteration 1                      :        ...1.163859e+02 [+5.00]
+  ReML Iteration 2                      :        ...7.545490e-01 [+5.25]
+  ReML Iteration 3                      :        ...2.801047e-02 [+5.50]
+  ReML Iteration 1                      :        ...1.128043e+02 [+5.75]
+  ReML Iteration 2                      :        ...7.880191e-01 [+6.00]
+  ReML Iteration 3                      :        ...9.887201e-03 [+6.25]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.055432e+02 [+4.25]
+  ReML Iteration 2                      :        ...7.674572e-01 [+4.50]
+  ReML Iteration 3                      :        ...2.742666e-02 [+4.75]
+  ReML Iteration 1                      :        ...1.054979e+02 [+5.00]
+  ReML Iteration 2                      :        ...7.248828e-01 [+5.25]
+  ReML Iteration 3                      :        ...1.934541e-02 [+5.50]
+  ReML Iteration 1                      :        ...1.015795e+02 [+5.75]
+  ReML Iteration 2                      :        ...9.352288e-01 [+6.00]
+  ReML Iteration 3                      :        ...2.675637e-02 [+6.25]
+
+SPM25: spm_spm                                     22:43:49 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:44:14 - 19/08/2026
+Done
+19-Aug-2026 22:44:14 - Done    'Model estimation'
+19-Aug-2026 22:44:14 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:44:14 - 19/08/2026
+========================================================================
+Contrasts folder                        :                       ./sub-07
+Deleting contrasts                      :                        ...done
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written spmT_0001.nii
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written spmT_0002.nii
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written spmT_0003.nii
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written spmT_0004.nii
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:44:15 - 19/08/2026
+19-Aug-2026 22:44:15 - Done    'Contrast Manager'
+19-Aug-2026 22:44:15 - Done
+
+SUCCESS: Erweitertes First-Level für sub-07 beendet.
+
+===================================================
+Starte erweitertes First-Level für: sub-08
+===================================================
+  -> Füge Session 1 hinzu (Run 06, musicloc1)
+  -> Füge Session 2 hinzu (Run 07, musicloc2)
+  -> Explizite Maske geladen: mask.nii
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:44:16 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:44:16 - Running 'fMRI model specification'
+
+SPM25: spm_fMRI_design                             22:44:17 - 19/08/2026
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM25: spm_fmri_spm_ui                             22:44:17 - 19/08/2026
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          22:44:27 - 19/08/2026
+19-Aug-2026 22:44:27 - Done    'fMRI model specification'
+19-Aug-2026 22:44:27 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:44:27 - 19/08/2026
+========================================================================
+
+SPM25: spm_est_non_sphericity                      22:44:29 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (169609 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.109762e+02 [+4.25]
+  ReML Iteration 2                      :        ...3.585624e-01 [+4.50]
+  ReML Iteration 3                      :        ...2.439526e-02 [+4.75]
+  ReML Iteration 1                      :        ...1.109294e+02 [+5.00]
+  ReML Iteration 2                      :        ...1.424195e-01 [+5.25]
+  ReML Iteration 3                      :        ...2.816885e-03 [+5.50]
+  ReML Iteration 1                      :        ...1.070508e+02 [+5.75]
+  ReML Iteration 2                      :        ...1.411990e-01 [+6.00]
+  ReML Iteration 3                      :        ...6.576001e-04 [+6.25]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.056973e+02 [+4.25]
+  ReML Iteration 2                      :        ...8.379611e-02 [+4.50]
+  ReML Iteration 1                      :        ...1.056895e+02 [+4.75]
+  ReML Iteration 2                      :        ...1.422872e-01 [+5.00]
+  ReML Iteration 3                      :        ...6.397032e-04 [+5.25]
+  ReML Iteration 1                      :        ...1.019529e+02 [+5.50]
+  ReML Iteration 2                      :        ...1.248468e-01 [+5.75]
+  ReML Iteration 3                      :        ...9.436374e-04 [+6.00]
+
+SPM25: spm_spm                                     22:44:52 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:45:15 - 19/08/2026
+Done
+19-Aug-2026 22:45:15 - Done    'Model estimation'
+19-Aug-2026 22:45:15 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:45:16 - 19/08/2026
+========================================================================
+Contrasts folder                        :                       ./sub-08
+Deleting contrasts                      :                        ...done
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written spmT_0001.nii
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written spmT_0002.nii
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written spmT_0003.nii
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written spmT_0004.nii
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:45:17 - 19/08/2026
+19-Aug-2026 22:45:17 - Done    'Contrast Manager'
+19-Aug-2026 22:45:17 - Done
+
+SUCCESS: Erweitertes First-Level für sub-08 beendet.
+
+===================================================
+Starte erweitertes First-Level für: sub-09
+===================================================
+  -> Füge Session 1 hinzu (Run 06, musicloc1)
+  -> Füge Session 2 hinzu (Run 07, musicloc2)
+  -> Explizite Maske geladen: mask.nii
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:45:18 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:45:18 - Running 'fMRI model specification'
+
+SPM25: spm_fMRI_design                             22:45:19 - 19/08/2026
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM25: spm_fmri_spm_ui                             22:45:19 - 19/08/2026
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          22:45:28 - 19/08/2026
+19-Aug-2026 22:45:28 - Done    'fMRI model specification'
+19-Aug-2026 22:45:28 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:45:29 - 19/08/2026
+========================================================================
+
+SPM25: spm_est_non_sphericity                      22:45:30 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (169536 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.097323e+02 [+4.25]
+  ReML Iteration 2                      :        ...6.173077e-02 [+4.50]
+  ReML Iteration 1                      :        ...1.097302e+02 [+4.75]
+  ReML Iteration 2                      :        ...4.611817e-02 [+5.00]
+  ReML Iteration 1                      :        ...1.060186e+02 [+5.25]
+  ReML Iteration 2                      :        ...9.929984e-02 [+5.50]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.020646e+02 [+4.25]
+  ReML Iteration 2                      :        ...2.977160e-01 [+4.50]
+  ReML Iteration 3                      :        ...3.021294e-02 [+4.75]
+  ReML Iteration 1                      :        ...1.020364e+02 [+5.00]
+  ReML Iteration 2                      :        ...5.892238e-02 [+5.25]
+  ReML Iteration 1                      :        ...9.815248e+01 [+5.50]
+  ReML Iteration 2                      :        ...1.155246e-01 [+5.75]
+  ReML Iteration 3                      :        ...7.884625e-04 [+6.00]
+
+SPM25: spm_spm                                     22:45:51 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:46:15 - 19/08/2026
+Done
+19-Aug-2026 22:46:15 - Done    'Model estimation'
+19-Aug-2026 22:46:15 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:46:15 - 19/08/2026
+========================================================================
+Contrasts folder                        :                       ./sub-09
+Deleting contrasts                      :                        ...done
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written spmT_0001.nii
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written spmT_0002.nii
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written spmT_0003.nii
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written spmT_0004.nii
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:46:16 - 19/08/2026
+19-Aug-2026 22:46:16 - Done    'Contrast Manager'
+19-Aug-2026 22:46:16 - Done
+
+SUCCESS: Erweitertes First-Level für sub-09 beendet.
+
+===================================================
+Starte erweitertes First-Level für: sub-10
+===================================================
+  -> Füge Session 1 hinzu (Run 06, musicloc1)
+  -> Füge Session 2 hinzu (Run 07, musicloc2)
+  -> Explizite Maske geladen: mask.nii
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:46:17 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:46:17 - Running 'fMRI model specification'
+
+SPM25: spm_fMRI_design                             22:46:18 - 19/08/2026
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM25: spm_fmri_spm_ui                             22:46:18 - 19/08/2026
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          22:46:28 - 19/08/2026
+19-Aug-2026 22:46:28 - Done    'fMRI model specification'
+19-Aug-2026 22:46:28 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:46:28 - 19/08/2026
+========================================================================
+
+SPM25: spm_est_non_sphericity                      22:46:29 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (177845 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.085958e+02 [+4.25]
+  ReML Iteration 2                      :        ...2.467480e-01 [+4.50]
+  ReML Iteration 3                      :        ...2.536258e-02 [+4.75]
+  ReML Iteration 1                      :        ...1.085829e+02 [+5.00]
+  ReML Iteration 2                      :        ...1.477367e-01 [+5.25]
+  ReML Iteration 3                      :        ...4.279133e-03 [+5.50]
+  ReML Iteration 1                      :        ...1.046498e+02 [+5.75]
+  ReML Iteration 2                      :        ...1.816065e-01 [+6.00]
+  ReML Iteration 3                      :        ...1.447526e-03 [+6.25]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.060588e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.074678e-01 [+4.50]
+  ReML Iteration 3                      :        ...1.087367e-02 [+4.75]
+  ReML Iteration 1                      :        ...1.060506e+02 [+5.00]
+  ReML Iteration 2                      :        ...1.053074e-01 [+5.25]
+  ReML Iteration 3                      :        ...1.739076e-03 [+5.50]
+  ReML Iteration 1                      :        ...1.023697e+02 [+5.75]
+  ReML Iteration 2                      :        ...1.844467e-01 [+6.00]
+  ReML Iteration 3                      :        ...8.636623e-04 [+6.25]
+
+SPM25: spm_spm                                     22:46:54 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:47:21 - 19/08/2026
+Done
+19-Aug-2026 22:47:21 - Done    'Model estimation'
+19-Aug-2026 22:47:21 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:47:21 - 19/08/2026
+========================================================================
+Contrasts folder                        :                       ./sub-10
+Deleting contrasts                      :                        ...done
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written spmT_0001.nii
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written spmT_0002.nii
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written spmT_0003.nii
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written spmT_0004.nii
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:47:23 - 19/08/2026
+19-Aug-2026 22:47:23 - Done    'Contrast Manager'
+19-Aug-2026 22:47:23 - Done
+
+SUCCESS: Erweitertes First-Level für sub-10 beendet.
+
+===================================================
+Starte erweitertes First-Level für: sub-11
+===================================================
+  -> Füge Session 1 hinzu (Run 06, musicloc1)
+  -> Füge Session 2 hinzu (Run 07, musicloc2)
+  -> Explizite Maske geladen: mask.nii
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:47:24 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:47:24 - Running 'fMRI model specification'
+
+SPM25: spm_fMRI_design                             22:47:24 - 19/08/2026
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM25: spm_fmri_spm_ui                             22:47:24 - 19/08/2026
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          22:47:35 - 19/08/2026
+19-Aug-2026 22:47:35 - Done    'fMRI model specification'
+19-Aug-2026 22:47:35 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:47:35 - 19/08/2026
+========================================================================
+
+SPM25: spm_est_non_sphericity                      22:47:36 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (170738 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.055413e+02 [+4.25]
+  ReML Iteration 2                      :        ...2.730279e-01 [+4.50]
+  ReML Iteration 3                      :        ...5.286089e-03 [+4.75]
+  ReML Iteration 1                      :        ...1.055387e+02 [+5.00]
+  ReML Iteration 2                      :        ...2.872849e-01 [+5.25]
+  ReML Iteration 3                      :        ...3.482513e-03 [+5.50]
+  ReML Iteration 1                      :        ...1.013050e+02 [+5.75]
+  ReML Iteration 2                      :        ...4.292890e-01 [+6.00]
+  ReML Iteration 3                      :        ...5.210890e-03 [+6.25]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.072407e+02 [+4.25]
+  ReML Iteration 2                      :        ...2.100222e-01 [+4.50]
+  ReML Iteration 3                      :        ...5.995969e-03 [+4.75]
+  ReML Iteration 1                      :        ...1.072337e+02 [+5.00]
+  ReML Iteration 2                      :        ...2.953360e-01 [+5.25]
+  ReML Iteration 3                      :        ...6.207729e-03 [+5.50]
+  ReML Iteration 1                      :        ...1.038351e+02 [+5.75]
+  ReML Iteration 2                      :        ...4.119987e-01 [+6.00]
+  ReML Iteration 3                      :        ...7.635429e-03 [+6.25]
+
+SPM25: spm_spm                                     22:48:01 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:48:25 - 19/08/2026
+Done
+19-Aug-2026 22:48:25 - Done    'Model estimation'
+19-Aug-2026 22:48:25 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:48:25 - 19/08/2026
+========================================================================
+Contrasts folder                        :                       ./sub-11
+Deleting contrasts                      :                        ...done
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written spmT_0001.nii
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written spmT_0002.nii
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written spmT_0003.nii
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written spmT_0004.nii
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:48:26 - 19/08/2026
+19-Aug-2026 22:48:26 - Done    'Contrast Manager'
+19-Aug-2026 22:48:26 - Done
+
+SUCCESS: Erweitertes First-Level für sub-11 beendet.
+
+===================================================
+Starte erweitertes First-Level für: sub-12
+===================================================
+  -> Füge Session 1 hinzu (Run 06, musicloc1)
+  -> Füge Session 2 hinzu (Run 07, musicloc2)
+  -> Explizite Maske geladen: mask.nii
+
+
+------------------------------------------------------------------------
+19-Aug-2026 22:48:28 - Running job #1
+------------------------------------------------------------------------
+19-Aug-2026 22:48:28 - Running 'fMRI model specification'
+
+SPM25: spm_fMRI_design                             22:48:28 - 19/08/2026
+========================================================================
+Saving fMRI design                      :               ...SPM.mat saved
+
+SPM25: spm_fmri_spm_ui                             22:48:28 - 19/08/2026
+========================================================================
+Mapping files                           :                        ...done
+Calculating globals                     :                        ...done
+Saving SPM configuration                :               ...SPM.mat saved
+Saving SPM configuration                :               ...SPM.mat saved
+Completed                               :          22:48:39 - 19/08/2026
+19-Aug-2026 22:48:39 - Done    'fMRI model specification'
+19-Aug-2026 22:48:39 - Running 'Model estimation'
+
+SPM25: spm_spm                                     22:48:39 - 19/08/2026
+========================================================================
+
+SPM25: spm_est_non_sphericity                      22:48:40 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Temporal non-sphericity (170404 voxels) :             ...ReML estimation
+  ReML Block 1                
+  ReML Iteration 1                      :        ...1.133756e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.174204e-01 [+4.50]
+  ReML Iteration 3                      :        ...6.781549e-03 [+4.75]
+  ReML Iteration 1                      :        ...1.133695e+02 [+5.00]
+  ReML Iteration 2                      :        ...1.223161e-01 [+5.25]
+  ReML Iteration 3                      :        ...1.138731e-03 [+5.50]
+  ReML Iteration 1                      :        ...1.097489e+02 [+5.75]
+  ReML Iteration 2                      :        ...1.884881e-01 [+6.00]
+  ReML Iteration 3                      :        ...1.668881e-03 [+6.25]
+  ReML Block 2                
+  ReML Iteration 1                      :        ...1.046072e+02 [+4.25]
+  ReML Iteration 2                      :        ...1.227462e-01 [+4.50]
+  ReML Iteration 3                      :        ...2.581344e-03 [+4.75]
+  ReML Iteration 1                      :        ...1.045963e+02 [+5.00]
+  ReML Iteration 2                      :        ...1.349444e-01 [+5.25]
+  ReML Iteration 3                      :        ...5.980093e-04 [+5.50]
+  ReML Iteration 1                      :        ...1.008218e+02 [+5.75]
+  ReML Iteration 2                      :        ...3.163519e-01 [+6.00]
+  ReML Iteration 3                      :        ...5.220718e-04 [+6.25]
+
+SPM25: spm_spm                                     22:49:05 - 19/08/2026
+========================================================================
+Chunk   1/3                             :                  ...processing                       ...doneChunk   2/3                             :                  ...processing                       ...doneChunk   3/3                             :                  ...processing                       ...done
+Spatial non-sphericity (over scans)     :      ...estimating derivatives ...writing resels/voxel image                       ...done
+Saving SPM.mat                          :                     ...writing                       ...done
+Completed                               :          22:49:28 - 19/08/2026
+Done
+19-Aug-2026 22:49:28 - Done    'Model estimation'
+19-Aug-2026 22:49:28 - Running 'Contrast Manager'
+
+SPM25: spm_contrasts.m                             22:49:28 - 19/08/2026
+========================================================================
+Contrasts folder                        :                       ./sub-12
+Deleting contrasts                      :                        ...done
+	contrast image  1               :                   ...computing       ...written con_0001.nii
+	spm{T} image  1                 :                   ...computing      ...written spmT_0001.nii
+	contrast image  2               :                   ...computing       ...written con_0002.nii
+	spm{T} image  2                 :                   ...computing      ...written spmT_0002.nii
+	contrast image  3               :                   ...computing       ...written con_0003.nii
+	spm{T} image  3                 :                   ...computing      ...written spmT_0003.nii
+	contrast image  4               :                   ...computing       ...written con_0004.nii
+	spm{T} image  4                 :                   ...computing      ...written spmT_0004.nii
+	Saving SPM.mat                  :                     ...writing              ...SPM.mat saved
+Completed                               :          22:49:29 - 19/08/2026
+19-Aug-2026 22:49:29 - Done    'Contrast Manager'
+19-Aug-2026 22:49:29 - Done
+
+SUCCESS: Erweitertes First-Level für sub-12 beendet.
+=========================================================================
+ALLE ERWEITERTEN FIRST-LEVEL-ANALYSEN BERCHNET (NEUE ORDNERSTRUKTUR)!
+=========================================================================

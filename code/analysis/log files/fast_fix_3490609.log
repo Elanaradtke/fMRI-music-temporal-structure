@@ -1,0 +1,210 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024b Update 5 (24.2.0.2863752) 64-bit (glnxa64)
+                              January 31, 2025
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+===================================================
+Hole Normalize & Smooth nach für: sub-01
+===================================================
+-> Verarbeite existierenden Run 1...
+
+
+------------------------------------------------------------------------
+17-Jun-2026 15:20:20 - Running job #1
+------------------------------------------------------------------------
+17-Jun-2026 15:20:20 - Running 'Normalise: Write'
+17-Jun-2026 15:21:23 - Done    'Normalise: Write'
+17-Jun-2026 15:21:23 - Running 'Smooth'
+17-Jun-2026 15:22:42 - Done    'Smooth'
+17-Jun-2026 15:22:42 - Done
+
+Fehler bei Run 1: Cannot copy or move a file or directory onto itself.
+-> Verarbeite existierenden Run 2...
+
+
+------------------------------------------------------------------------
+17-Jun-2026 15:22:44 - Running job #1
+------------------------------------------------------------------------
+17-Jun-2026 15:22:44 - Running 'Normalise: Write'
+17-Jun-2026 15:23:43 - Done    'Normalise: Write'
+17-Jun-2026 15:23:43 - Running 'Smooth'
+Launching updater executable
+17-Jun-2026 15:25:00 - Done    'Smooth'
+17-Jun-2026 15:25:00 - Done
+
+Fehler bei Run 2: Cannot copy or move a file or directory onto itself.
+SUCCESS: sub-01 erfolgreich nachbereitet.
+
+===================================================
+Hole Normalize & Smooth nach für: sub-02
+===================================================
+-> Verarbeite existierenden Run 1...
+
+
+------------------------------------------------------------------------
+17-Jun-2026 15:25:01 - Running job #1
+------------------------------------------------------------------------
+17-Jun-2026 15:25:01 - Running 'Normalise: Write'
+17-Jun-2026 15:26:02 - Done    'Normalise: Write'
+17-Jun-2026 15:26:02 - Running 'Smooth'
+17-Jun-2026 15:27:17 - Done    'Smooth'
+17-Jun-2026 15:27:17 - Done
+
+Fehler bei Run 1: Cannot copy or move a file or directory onto itself.
+-> Verarbeite existierenden Run 2...
+
+
+------------------------------------------------------------------------
+17-Jun-2026 15:27:19 - Running job #1
+------------------------------------------------------------------------
+17-Jun-2026 15:27:19 - Running 'Normalise: Write'
+17-Jun-2026 15:28:19 - Done    'Normalise: Write'
+17-Jun-2026 15:28:20 - Running 'Smooth'
+17-Jun-2026 15:29:34 - Done    'Smooth'
+17-Jun-2026 15:29:34 - Done
+
+Fehler bei Run 2: Cannot copy or move a file or directory onto itself.
+SUCCESS: sub-02 erfolgreich nachbereitet.
+
+===================================================
+Hole Normalize & Smooth nach für: sub-03
+===================================================
+-> Verarbeite existierenden Run 1...
+
+
+------------------------------------------------------------------------
+17-Jun-2026 15:29:36 - Running job #1
+------------------------------------------------------------------------
+17-Jun-2026 15:29:36 - Running 'Normalise: Write'
+17-Jun-2026 15:30:37 - Done    'Normalise: Write'
+17-Jun-2026 15:30:37 - Running 'Smooth'
+17-Jun-2026 15:31:55 - Done    'Smooth'
+17-Jun-2026 15:31:55 - Done
+
+Fehler bei Run 1: Cannot copy or move a file or directory onto itself.
+-> Verarbeite existierenden Run 2...
+
+
+------------------------------------------------------------------------
+17-Jun-2026 15:31:56 - Running job #1
+------------------------------------------------------------------------
+17-Jun-2026 15:31:56 - Running 'Normalise: Write'
+17-Jun-2026 15:32:55 - Done    'Normalise: Write'
+17-Jun-2026 15:32:55 - Running 'Smooth'
+17-Jun-2026 15:34:10 - Done    'Smooth'
+17-Jun-2026 15:34:10 - Done
+
+Fehler bei Run 2: Cannot copy or move a file or directory onto itself.
+SUCCESS: sub-03 erfolgreich nachbereitet.
+
+===================================================
+Hole Normalize & Smooth nach für: sub-04
+===================================================
+-> Verarbeite existierenden Run 1...
+
+
+------------------------------------------------------------------------
+17-Jun-2026 15:34:11 - Running job #1
+------------------------------------------------------------------------
+17-Jun-2026 15:34:11 - Running 'Normalise: Write'
+17-Jun-2026 15:35:12 - Done    'Normalise: Write'
+17-Jun-2026 15:35:12 - Running 'Smooth'
+17-Jun-2026 15:36:31 - Done    'Smooth'
+17-Jun-2026 15:36:31 - Done
+
+Fehler bei Run 1: Cannot copy or move a file or directory onto itself.
+-> Verarbeite existierenden Run 2...
+
+
+------------------------------------------------------------------------
+17-Jun-2026 15:36:33 - Running job #1
+------------------------------------------------------------------------
+17-Jun-2026 15:36:33 - Running 'Normalise: Write'
+17-Jun-2026 15:37:30 - Done    'Normalise: Write'
+17-Jun-2026 15:37:30 - Running 'Smooth'
+17-Jun-2026 15:38:43 - Done    'Smooth'
+17-Jun-2026 15:38:43 - Done
+
+Fehler bei Run 2: Cannot copy or move a file or directory onto itself.
+SUCCESS: sub-04 erfolgreich nachbereitet.
+
+===================================================
+Hole Normalize & Smooth nach für: sub-05
+===================================================
+-> Verarbeite existierenden Run 1...
+
+
+------------------------------------------------------------------------
+17-Jun-2026 15:38:45 - Running job #1
+------------------------------------------------------------------------
+17-Jun-2026 15:38:45 - Running 'Normalise: Write'
+17-Jun-2026 15:39:45 - Done    'Normalise: Write'
+17-Jun-2026 15:39:45 - Running 'Smooth'
+17-Jun-2026 15:41:04 - Done    'Smooth'
+17-Jun-2026 15:41:04 - Done
+
+Fehler bei Run 1: Cannot copy or move a file or directory onto itself.
+-> Verarbeite existierenden Run 2...
+
+
+------------------------------------------------------------------------
+17-Jun-2026 15:41:05 - Running job #1
+------------------------------------------------------------------------
+17-Jun-2026 15:41:05 - Running 'Normalise: Write'
+17-Jun-2026 15:42:02 - Done    'Normalise: Write'
+17-Jun-2026 15:42:02 - Running 'Smooth'
+17-Jun-2026 15:43:16 - Done    'Smooth'
+17-Jun-2026 15:43:16 - Done
+
+Fehler bei Run 2: Cannot copy or move a file or directory onto itself.
+SUCCESS: sub-05 erfolgreich nachbereitet.
+
+===================================================
+Hole Normalize & Smooth nach für: sub-06
+===================================================
+-> Verarbeite existierenden Run 1...
+
+
+------------------------------------------------------------------------
+17-Jun-2026 15:43:17 - Running job #1
+------------------------------------------------------------------------
+17-Jun-2026 15:43:17 - Running 'Normalise: Write'
+17-Jun-2026 15:44:21 - Done    'Normalise: Write'
+17-Jun-2026 15:44:21 - Running 'Smooth'
+17-Jun-2026 15:45:41 - Done    'Smooth'
+17-Jun-2026 15:45:41 - Done
+
+Fehler bei Run 1: Cannot copy or move a file or directory onto itself.
+SUCCESS: sub-06 erfolgreich nachbereitet.
+
+===================================================
+Hole Normalize & Smooth nach für: sub-07
+===================================================
+-> Verarbeite existierenden Run 1...
+
+
+------------------------------------------------------------------------
+17-Jun-2026 15:45:42 - Running job #1
+------------------------------------------------------------------------
+17-Jun-2026 15:45:42 - Running 'Normalise: Write'
+17-Jun-2026 15:46:43 - Done    'Normalise: Write'
+17-Jun-2026 15:46:43 - Running 'Smooth'
+17-Jun-2026 15:48:02 - Done    'Smooth'
+17-Jun-2026 15:48:02 - Done
+
+Fehler bei Run 1: Cannot copy or move a file or directory onto itself.
+-> Verarbeite existierenden Run 2...
+
+
+------------------------------------------------------------------------
+17-Jun-2026 15:48:03 - Running job #1
+------------------------------------------------------------------------
+17-Jun-2026 15:48:03 - Running 'Normalise: Write'
+17-Jun-2026 15:49:01 - Done    'Normalise: Write'
+17-Jun-2026 15:49:01 - Running 'Smooth'
